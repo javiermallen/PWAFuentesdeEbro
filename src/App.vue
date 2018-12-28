@@ -1,11 +1,11 @@
 <template>
   <div id="app">
+    <router-view/>
     <div id="nav">
       <router-link to="/">Inicio</router-link> |
       <router-link to="/about">Nosotros</router-link>
     </div>
-    <router-view/>
-  </div>
+    </div>
 </template>
 
 <style>
@@ -17,4 +17,5 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
